@@ -1,0 +1,9 @@
+*.vsix
+.github
+.vscode
+.gitignore
+node_modules
+src
+webpack.config.js
+tsconfig.json
+dist/**/*.js.map
