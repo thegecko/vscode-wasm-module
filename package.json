@@ -9,6 +9,7 @@
   "author": "Rob Moran <rob.moran@arm.com>",
   "license": "UNLICENSED",
   "browser": "dist/browser.js",
+  "main": "dist/main.js",
   "repository": "https://github.com/thegecko/vscode-wasm-module",
   "engines": {
     "vscode": "^1.63.0"

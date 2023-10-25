@@ -38,5 +38,17 @@ module.exports = [
             path: path.resolve(__dirname, 'dist'),
             libraryTarget: 'commonjs'
         }
+    },
+    {
+        ...common,
+        target: 'node',
+        entry: {
+            main: './src/desktop/extension.ts'
+        },
+        output: {
+            filename: '[name].js',
+            path: path.resolve(__dirname, 'dist'),
+            libraryTarget: 'commonjs'
+        }
     }
 ];
